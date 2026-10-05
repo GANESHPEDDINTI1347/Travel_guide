@@ -126,7 +126,7 @@ voiceButtons.forEach(btn => {
 // Generate Audio guide button Logic
 
 const GENERATE_AUDIO_GUIDE_API_URL =
-  "http://127.0.0.1:5000/generate-audio-guide";
+  "http://travelguide-production-cf1b.up.railway.app/generate-audio-guide";
 
 generateButton.addEventListener("click", async () => {
   generateButton.disabled = true;
